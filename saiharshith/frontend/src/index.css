@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-zinc-100 text-zinc-900 font-sans antialiased;
+  }
+}
+
+.editor-paragraph {
+  @apply mb-2;
+}
+
+.editor-heading-h1 {
+  @apply text-3xl font-bold mb-4 mt-6;
+}
+
+.editor-heading-h2 {
+  @apply text-2xl font-bold mb-3 mt-5;
+}
+
+.editor-list-ol {
+  @apply list-decimal list-inside ml-4 mb-2;
+}
+
+.editor-list-ul {
+  @apply list-disc list-inside ml-4 mb-2;
+}
+
+.editor-text-bold {
+  @apply font-bold;
+}
+
+.editor-text-italic {
+  @apply italic;
+}
+
+.editor-text-underline {
+  @apply underline;
+}
+
+/* Lexical Editor Content Editable */
+.ContentEditable__root {
+  @apply outline-none min-h-[500px] py-4 px-2 text-zinc-800;
+}
+
+.editor-heading-h1,
+.editor-heading-h2 {
+  color: #18181b; /* zinc-900 for headings */
+}

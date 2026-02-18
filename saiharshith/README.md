@@ -1,5 +1,7 @@
 # Smart Blog Editor
 
+[Demo Video](https://drive.google.com/file/d/1656u68lr_vU-z_u-ejGTSg1sg8QdPMgr/view?usp=drive_link)
+
 A blog editor I built using React + FastAPI. It's got a Notion-like editing experience with rich text formatting, auto-save, and AI text tools powered by Gemini.
 
 ## What it does
